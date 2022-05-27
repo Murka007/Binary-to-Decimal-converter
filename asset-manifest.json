@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Number-system-converter/static/css/main.4059da82.css",
+    "main.js": "/Number-system-converter/static/js/main.4257ea89.js",
+    "index.html": "/Number-system-converter/index.html",
+    "main.4059da82.css.map": "/Number-system-converter/static/css/main.4059da82.css.map",
+    "main.4257ea89.js.map": "/Number-system-converter/static/js/main.4257ea89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4059da82.css",
+    "static/js/main.4257ea89.js"
+  ]
+}
