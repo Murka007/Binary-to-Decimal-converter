@@ -7,6 +7,8 @@ A tool that allows to convert numbers from one number system to another
 Value can be converted from any option to another
 - *Binary, octal, decimal, hexadecimal and string support*
 
+Look at preview: https://murka007.github.io/Binary-to-Decimal-converter/
+
 ### More about
 - Written with React and Typescript
 - Using svg for icons
