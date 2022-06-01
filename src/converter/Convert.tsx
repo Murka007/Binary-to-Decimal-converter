@@ -11,7 +11,7 @@ const Chars: ReadonlyString = {
     binary: "01 ",
     octal: "01234567 ",
     decimal: "0123456789 ",
-    hexadecimal: "0123456789ABCDEF "
+    hexadecimal: "0123456789ABCDEFX "
 };
 
 export function formatInput(input: string, from: number, trim: boolean = true): string {
