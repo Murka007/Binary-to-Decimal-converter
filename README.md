@@ -10,7 +10,7 @@ Value can be converted from any option to another
 Look at preview: https://murka007.github.io/Binary-to-Decimal-converter/
 
 ### More about
-- Written with React and Typescript
+- Written using React and Typescript
 - Using svg for icons
 - Custom select and option
 - Adaptive design
