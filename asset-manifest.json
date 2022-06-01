@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Binary-to-Decimal-converter/static/css/main.34afe871.css",
-    "main.js": "/Binary-to-Decimal-converter/static/js/main.3182f980.js",
+    "main.js": "/Binary-to-Decimal-converter/static/js/main.b1265f64.js",
     "static/media/swapSign.svg": "/Binary-to-Decimal-converter/static/media/swapSign.d34a401e561a4869a742cdbffe9ddd23.svg",
     "static/media/logo.svg": "/Binary-to-Decimal-converter/static/media/logo.dccb924d81827059afe6ee5d9b62e098.svg",
     "index.html": "/Binary-to-Decimal-converter/index.html",
     "static/media/deleteSign.svg": "/Binary-to-Decimal-converter/static/media/deleteSign.5ae4164a788c80d405f15b7b860ea69f.svg",
     "static/media/equalSign.svg": "/Binary-to-Decimal-converter/static/media/equalSign.829cf15bfa17b24225b8070cf6fc4ee2.svg",
     "main.34afe871.css.map": "/Binary-to-Decimal-converter/static/css/main.34afe871.css.map",
-    "main.3182f980.js.map": "/Binary-to-Decimal-converter/static/js/main.3182f980.js.map"
+    "main.b1265f64.js.map": "/Binary-to-Decimal-converter/static/js/main.b1265f64.js.map"
   },
   "entrypoints": [
     "static/css/main.34afe871.css",
-    "static/js/main.3182f980.js"
+    "static/js/main.b1265f64.js"
   ]
 }
