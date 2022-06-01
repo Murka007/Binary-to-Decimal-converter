@@ -12,18 +12,17 @@ interface IOption {
     readonly label: string;
 }
 
+const options: IOption[] = [
+    { value: SelectOptions.binary, label: "Binary" },
+    { value: SelectOptions.octal, label: "Octal" },
+    { value: SelectOptions.decimal, label: "Decimal" },
+    { value: SelectOptions.hexadecimal, label: "Hexadecimal" },
+    { value: SelectOptions.string, label: "String" }
+];
+
 const Select = ({ value, setValue }: SelectProps) => {
 
-    const options: IOption[] = [
-        { value: SelectOptions.binary, label: "Binary" },
-        { value: SelectOptions.octal, label: "Octal" },
-        { value: SelectOptions.decimal, label: "Decimal" },
-        { value: SelectOptions.hexadecimal, label: "Hexadecimal" },
-        { value: SelectOptions.string, label: "String" }
-    ];
-
     const [opened, setOpened] = useState<boolean>(false);
-
     function updateValue(value: number): void {
         setOpened(false);
         setValue(value);

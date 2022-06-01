@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { FC, useEffect, useRef, useState } from "react";
 import Classes from "./Main.module.css";
 import Select from "../Select/Select";
 import Textbox from "../Textbox/Textbox";
@@ -9,6 +9,7 @@ import Button from "../Button/Button";
 import equalSign from "../../img/equalSign.svg";
 import deleteSign from "../../img/deleteSign.svg";
 import swapSign from "../../img/swapSign.svg";
+import searchIcon from "../../img/searchIcon.svg";
 
 const Main = () => {
     const [from, setFrom] = useState<number>(SelectOptions.binary);
@@ -16,6 +17,8 @@ const Main = () => {
 
     const [input, setInput] = useState<string>("");
     const [output, setOutput] = useState<string>("");
+
+    const inputRef = useRef<HTMLInputElement>(null);
 
     function convertData(): void {
         if (!input.length) return;
@@ -36,6 +39,18 @@ const Main = () => {
 
         setInput(output);
         setOutput(input);
+    }
+
+    function openFile(): void {
+        if (inputRef.current === null) return;
+        inputRef.current.click();
+    }
+
+    async function readFile(event: React.ChangeEvent<HTMLInputElement>) {
+        const files = event.target.files;
+        if (files === null) return;
+        const text = await files[0].text();
+        setInput(text);
     }
 
     return (
@@ -67,16 +82,25 @@ const Main = () => {
                     <Button type={1} handleEvent={swapData}>
                         <img src={swapSign}></img>Swap
                     </Button>
+
+                    {
+                        from === SelectOptions.string && (
+                            <Button type={1} handleEvent={openFile}>
+                                <img src={searchIcon}></img>Open file
+                                <input ref={inputRef} onChange={readFile} type="file" style={{display: "none"}}/>
+                            </Button>
+                        )
+                    }
                 </div>
 
                 <div className={Classes.group}>
                     <div className="content-wrapper">
-                        <label>Enter value</label>
+                        <label>Enter value{ from === SelectOptions.string && " or drop a file" }</label>
                         {
                             from === SelectOptions.string ? (
                                 <Textbox
                                     text={input}
-                                    setInput={setInput}
+                                    setValue={setInput}
                                 />
                             ) : (
                                 <Input

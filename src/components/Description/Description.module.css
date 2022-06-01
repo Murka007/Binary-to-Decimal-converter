@@ -1,5 +1,9 @@
 .description {
     margin: 20px 0;
+    background: #fcfcfc;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--color-active-opacity);
 }
 
 .description > article {
@@ -9,10 +13,6 @@
     margin-left: 10px;
     max-width: 70%;
 }
-
-/* .description > article > p {
-    max-width: 60%;
-} */
 
 .description > div {
     display: inline-block;

@@ -1,7 +1,7 @@
 .button {
     background: #8cacc9;
     color: white;
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     margin-right: 10px;
@@ -10,6 +10,10 @@
     border-radius: var(--border-radius);
     outline: none;
     border: none;
+}
+
+.button:last-child {
+    margin-right: 0px;
 }
 
 .button:hover {
@@ -34,7 +38,7 @@
     margin-right: 8px;
 }
 
-@media (max-width: 510px) {
+@media (max-width: 400px) {
     .button {
         display: block;
         margin-bottom: 10px;

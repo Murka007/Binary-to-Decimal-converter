@@ -7,6 +7,7 @@
     --color-hover: rgba(0, 0, 0, 0.9);
 
     --color-active: #89b7c7;
+    --color-active-opacity: #89b7c748;
 }
 
 * {
@@ -40,4 +41,6 @@ p {
     max-width: 550px;
     width: 100%;
     margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
 }
