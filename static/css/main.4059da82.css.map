@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.4059da82.css","mappings":"AAAA,EACI,sCACJ,CAEA,KAEI,QAAS,CADT,SAEJ","sources":["App.css"],"sourcesContent":["* {\n    font-family: Arial, Helvetica, sans-serif;\n}\n\nbody {\n    padding: 0;\n    margin: 0;\n}"],"names":[],"sourceRoot":""}

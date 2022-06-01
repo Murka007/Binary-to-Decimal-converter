@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/Number-system-converter/static/css/main.4059da82.css",
-    "main.js": "/Number-system-converter/static/js/main.4257ea89.js",
-    "index.html": "/Number-system-converter/index.html",
-    "main.4059da82.css.map": "/Number-system-converter/static/css/main.4059da82.css.map",
-    "main.4257ea89.js.map": "/Number-system-converter/static/js/main.4257ea89.js.map"
+    "main.css": "/Binary-to-Decimal-converter/static/css/main.34afe871.css",
+    "main.js": "/Binary-to-Decimal-converter/static/js/main.3182f980.js",
+    "static/media/swapSign.svg": "/Binary-to-Decimal-converter/static/media/swapSign.d34a401e561a4869a742cdbffe9ddd23.svg",
+    "static/media/logo.svg": "/Binary-to-Decimal-converter/static/media/logo.dccb924d81827059afe6ee5d9b62e098.svg",
+    "index.html": "/Binary-to-Decimal-converter/index.html",
+    "static/media/deleteSign.svg": "/Binary-to-Decimal-converter/static/media/deleteSign.5ae4164a788c80d405f15b7b860ea69f.svg",
+    "static/media/equalSign.svg": "/Binary-to-Decimal-converter/static/media/equalSign.829cf15bfa17b24225b8070cf6fc4ee2.svg",
+    "main.34afe871.css.map": "/Binary-to-Decimal-converter/static/css/main.34afe871.css.map",
+    "main.3182f980.js.map": "/Binary-to-Decimal-converter/static/js/main.3182f980.js.map"
   },
   "entrypoints": [
-    "static/css/main.4059da82.css",
-    "static/js/main.4257ea89.js"
+    "static/css/main.34afe871.css",
+    "static/js/main.3182f980.js"
   ]
 }
