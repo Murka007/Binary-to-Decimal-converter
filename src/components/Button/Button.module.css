@@ -1,0 +1,42 @@
+.button {
+    background: #8cacc9;
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 700;
+    min-height: 40px;
+    border-radius: var(--border-radius);
+    outline: none;
+    border: none;
+}
+
+.button:hover {
+    background: #89a8c4;
+}
+.button:active {
+    background: #819eb8;
+}
+
+.secondary {
+    background: #a6aeb6;
+}
+.secondary:hover {
+    background: #9da4ac;
+}
+.secondary:active {
+    background: #9ca1a8;
+}
+
+.button > img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+@media (max-width: 510px) {
+    .button {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

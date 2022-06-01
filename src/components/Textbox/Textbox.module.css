@@ -1,0 +1,22 @@
+.textbox {
+    box-sizing: border-box;
+    resize: vertical;
+
+    max-width: 100%;
+    width: 100%;
+    min-height: 40px;
+    max-height: 150px;
+
+    border: 1px solid;
+    border-radius: var(--border-radius);
+    border-color: var(--border-color);
+    transition: border-color 200ms;
+    padding: 10px 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.textbox:focus {
+    border-color: var(--color-active);
+    transition: 200ms;
+}

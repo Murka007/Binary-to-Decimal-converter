@@ -1,11 +1,14 @@
 import React from "react";
 import "./App.css";
+import Description from "./components/Description/Description";
+import Main from "./components/Main/Main";
 
 function App() {
     return (
-        <div id="page-container">
-            container
-        </div>
+        <>
+            <Description/>
+            <Main/>
+        </>
     );
 }
 

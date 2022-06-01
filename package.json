@@ -1,7 +1,8 @@
 {
-  "name": "number-system-converter",
+  "name": "binary-to-decimal-converter",
   "version": "0.1.0",
-  "homepage": "https://Murka007.github.io/Number-system-converter/",
+  "description": "A tool that allows to convert numbers from one number system to another",
+  "homepage": "https://Murka007.github.io/Binary-to-Decimal-converter/",
   "author": "Murka",
   "private": true,
   "dependencies": {

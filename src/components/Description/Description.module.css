@@ -1,0 +1,34 @@
+.description {
+    margin: 20px 0;
+}
+
+.description > article {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 70%;
+}
+
+/* .description > article > p {
+    max-width: 60%;
+} */
+
+.description > div {
+    display: inline-block;
+}
+
+@media (max-width: 510px) {
+
+    .description > article {
+        display: block;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .description > div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

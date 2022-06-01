@@ -1,8 +1,43 @@
+:root {
+    --border-radius: 4px;
+    --border-color: rgba(0, 0, 0, 0.2);
+    --border-color-hover: rgba(0, 0, 0, 0.35);
+
+    --background-hover: rgba(0, 0, 0, 0.05);
+    --color-hover: rgba(0, 0, 0, 0.9);
+
+    --color-active: #89b7c7;
+}
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato, Helvetica, Neue, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+::-moz-selection {
+    background: #cce2ff;
+}
+
+::selection {
+    background: #cce2ff;
 }
 
 body {
     padding: 0;
     margin: 0;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 0;
+}
+
+#page-container {
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
 }
