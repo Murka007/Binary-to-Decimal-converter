@@ -43,12 +43,13 @@
 }
 
 .icon {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgba(0, 0, 0, 0.8);
     float: right;
-    font-size: 25px;
-}
-
-.icon:before {
-    content: "🢓";
+    margin-top: 6px;
 }
 
 .active {
@@ -59,7 +60,7 @@
 }
 
 .active > .icon {
-    transform: rotate(180deg) translateY(16px);
+    transform: rotate(180deg);
 }
 
 .select > label {
